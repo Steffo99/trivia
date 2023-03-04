@@ -46,3 +46,4 @@ document.onkeypress = async function(e) {
         await colorAnswers();
     }
 };
+document.onclick = document.onkeypress;
